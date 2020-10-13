@@ -1,0 +1,5 @@
+www.saber.xin {  
+  encode gzip
+  root * /home/ace/www
+  file_server
+}
