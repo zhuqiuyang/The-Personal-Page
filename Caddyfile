@@ -1,5 +1,9 @@
+saber.xin {
+  redir https://www.saber.xin
+}
+
 www.saber.xin {  
   encode gzip
-  root * /home/ace/www
+  root * /home/{$USER}/www
   file_server
 }
